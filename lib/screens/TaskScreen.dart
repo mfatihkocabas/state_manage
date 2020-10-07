@@ -8,9 +8,9 @@ class TasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: Colors.yellow.withOpacity(0.6),
       floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.lightBlueAccent,
+          backgroundColor: Colors.yellow.withOpacity(0.9),
           child: Icon(Icons.add),
           onPressed: () {
             showModalBottomSheet(
@@ -38,7 +38,7 @@ class TasksScreen extends StatelessWidget {
                   child: Icon(
                     Icons.list,
                     size: 30.0,
-                    color: Colors.lightBlueAccent,
+                    color:Colors.yellow.withOpacity(0.6),
                   ),
                   backgroundColor: Colors.white,
                   radius: 30.0,
@@ -47,7 +47,7 @@ class TasksScreen extends StatelessWidget {
                   height: 10.0,
                 ),
                 Text(
-                  'State_Management',
+                  'Fatihin Planlıyıcısı',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 30.0,
