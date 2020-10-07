@@ -50,7 +50,7 @@ class TasksScreen extends StatelessWidget {
                   'State_Management',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 50.0,
+                    fontSize: 30.0,
                     fontWeight: FontWeight.w700,
                   ),
                 ),
